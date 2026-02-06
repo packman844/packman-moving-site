@@ -33,7 +33,7 @@ export default function Home() {
 
       {/* SERVICES */}
       <section className="py-16 px-6 bg-gray-50">
-        <h2 className="text-3xl font-bold text-center">
+        <h2 className="text-3xl font-bold text-center text-black">
           Our Moving Services
         </h2>
 
@@ -55,7 +55,7 @@ export default function Home() {
 
       {/* WHY CHOOSE US */}
       <section className="py-16 px-6 bg-white">
-        <h2 className="text-3xl font-bold text-center">
+        <h2 className="text-3xl font-bold text-center text-black">
           Why Choose Packman Moving?
         </h2>
 
@@ -69,7 +69,7 @@ export default function Home() {
 
       {/* TESTIMONIALS */}
       <section className="py-16 px-6 bg-gray-50">
-        <h2 className="text-3xl font-bold text-center">
+        <h2 className="text-3xl font-bold text-center text-black">
           Customer Reviews
         </h2>
 
@@ -130,7 +130,7 @@ export default function Home() {
 function ServiceCard({ title, desc }: { title: string; desc: string }) {
   return (
     <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition">
-      <h3 className="text-xl font-bold">{title}</h3>
+      <h3 className="text-xl font-bold text-black">{title}</h3>
       <p className="mt-3 text-gray-600">{desc}</p>
     </div>
   );

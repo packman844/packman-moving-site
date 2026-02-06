@@ -21,7 +21,7 @@ export default function ServicesPage() {
 function Service({ title, desc }: { title: string; desc: string }) {
   return (
     <div className="p-6 bg-white shadow rounded-2xl">
-      <h2 className="text-2xl font-bold">{title}</h2>
+      <h2 className="text-2xl font-bold text-black">{title}</h2>
       <p className="mt-2 text-gray-600">{desc}</p>
     </div>
   );

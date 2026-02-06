@@ -26,8 +26,8 @@ function PriceCard({
 }) {
   return (
     <div className="p-6 rounded-2xl shadow bg-white">
-      <h2 className="text-2xl font-bold">{title}</h2>
-      <p className="text-3xl mt-4 font-semibold">{price}</p>
+      <h2 className="text-2xl font-bold text-black">{title}</h2>
+      <p className="text-3xl mt-4 font-semibold text-black">{price}</p>
       <p className="mt-3 text-gray-600">{desc}</p>
     </div>
   );
