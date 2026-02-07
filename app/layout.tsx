@@ -23,7 +23,6 @@ export default function RootLayout({
 
           <div className="flex gap-4 text-sm md:text-base">
             <Link href="/services">Services</Link>
-            <Link href="/pricing">Pricing</Link>
             <Link href="/book">Book</Link>
             <Link href="/contact">Contact</Link>
           </div>
