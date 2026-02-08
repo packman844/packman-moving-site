@@ -18,7 +18,7 @@ export default function RootLayout({
         {/* NAVBAR */}
         <nav className="bg-black text-white px-6 py-4 flex justify-between items-center">
           <Link href="/" className="font-bold text-xl">
-            Packman Moving 🚚
+            Packman Moving 
           </Link>
 
           <div className="flex gap-4 text-sm md:text-base">

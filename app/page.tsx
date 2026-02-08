@@ -1,12 +1,14 @@
 export default function Home() {
   return (
     <main className="font-sans">
-     
+  
+
+
      
         {/* HERO SECTION */}
       <section className="bg-black text-white py-20 px-6 text-center">
         <h1 className="text-4xl md:text-6xl font-bold">
-          Packman Moving & Delivery 🚚 
+          Packman Moving & Delivery  
         </h1>
 
         <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-gray-300">
